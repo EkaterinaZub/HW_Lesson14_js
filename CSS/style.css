@@ -1,0 +1,135 @@
+.app{
+   max-width: 1280px;
+   width: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo__img{
+    height: 56px;
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu__item{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(46, 38, 74);
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+}
+
+.basket__img{
+    height: 40px;
+    width: 100px;
+    }
+
+    .nav__furniture{
+      background-image: url( "/image/background.jpg");
+        height: 60px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .furniture__text{
+        font-size: 35px;
+        color: rgb(95, 88, 88);
+        
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        height: 430px;
+        width: 250px;
+        margin: 10px 0px 10px 0px;
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .category{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(57, 55, 55);
+    }
+
+    .img__card{
+        height: 250px;
+        width: 250px;
+    }
+
+    .title{
+        width: 250px;
+        margin-top: 5px;
+    }
+
+    .price{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        background-image: url( "/image/background.jpg");
+    }
+
+    .logo__footer{
+       display: flex;
+       
+       align-items: center;
+    }
+
+    .footer__img{
+        height: 156px;
+        width: 400px;
+    }
+
+    .contacts__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacts{
+        margin-bottom: 5px;
+
+    }
+
+    .footer__contacts{
+        text-decoration: none;
+        color: black;
+    }
