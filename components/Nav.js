@@ -1,9 +1,9 @@
-export class Nav {
+ class Nav {
     constructor() {
-        this.initNav()
+        
     }
 
-    static createNav() {
+     createNav() {
        
         const nav = document.createElement('nav')
         nav.className = 'nav'
@@ -19,12 +19,14 @@ export class Nav {
         navFurniture.append(spanFurniture)
 
         return this.nav
-        // this.element.append(this.header)
+       
     }
 
-    static initNav() {
+    initNav() {
         return this.createNav()
        
     }
 
 }
+
+export const nav = new Nav().initNav()

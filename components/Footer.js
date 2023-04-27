@@ -1,9 +1,9 @@
-export class Footer {
+ class Footer {
     constructor() {
-        this.initFooter()
+        // this.initFooter()
     }
 
-    static createFooter() {
+     createFooter() {
        
         const footer = document.createElement('footer')
         footer.className = 'footer'
@@ -64,9 +64,12 @@ export class Footer {
         
     }
 
-    static initFooter() {
+     initFooter() {
         return this.createFooter()
        
     }
 
 }
+
+
+export const footer = new Footer().initFooter();

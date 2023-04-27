@@ -1,6 +1,6 @@
-export class Helpers {
+ class Helpers {
 
-    static createHeadAttributs() {
+    createHeadAttributs() {
         const lang = document.querySelector('html');
         lang.setAttribute('lang', 'en');
 
@@ -35,3 +35,5 @@ export class Helpers {
 
    
 }
+
+export const head = new Helpers()

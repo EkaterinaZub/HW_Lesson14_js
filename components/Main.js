@@ -1,21 +1,32 @@
-export class Main {
+class Main {
     constructor() {
-        this.initMain()
+
     }
 
-    static createMain() {
-       
+    createMain() {
+
         const main = document.createElement('main')
         main.className = 'main'
-       
+
         this.main = main
         return this.main
-        // this.element.append(this.header)
+        
     }
 
-    static initMain() {
+    initMain() {
         return this.createMain()
-       
+
+    }
+    getTest (){ `
+    <section>
+    <a href="#/">Тут картинка товара </a>
+    <h1>Home</h1>
+    <p>This is just a test</p>
+    </section>
+    `
     }
 
 }
+
+export const main = new Main().initMain()
+export const main1 = new Main().getTest()
